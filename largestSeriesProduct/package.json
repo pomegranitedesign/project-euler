@@ -1,0 +1,17 @@
+{
+  "name": "largestSeriesProduct",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dmitriy Shin",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "compile": "tsc largestSeriesProduct.ts --watch",
+    "dev": "nodemon largestSeriesProduct.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
